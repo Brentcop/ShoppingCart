@@ -15,7 +15,7 @@ function getTotal(){
  	total += newList[i].price; 
 
 	}
-	console.log("Your total price is: " + total);
+	alert("Your total price is: " + total);
 }
 function checkOut(){
 	for (var i = 0; i < newList.length; i++){
